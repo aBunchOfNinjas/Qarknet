@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="mobile-web-app-capable" content="yes" />
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="apple-touch-icon" href="favicon.ico"/>
+	<link rel="apple-touch-icon-precomposed" href="favicon.ico"/>
+		
+	<title>Bio</title>
+	<script></script>
+	<style>
+		html,body{
+			width: 100%;
+			
+			font-family: helvetica;
+		}
+		#headimg{
+			height:4em;
+			width: 8em;
+		}
+		#header{
+			padding: 1em;
+			position: relative;
+		}
+		#body{
+			position: relative;
+			top: 2em;
+			width: 100%;
+			margin:1em;
+
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		#para{
+			padding: 5em;
+			font-size: 10pt;
+
+		}
+		#main-menu td{
+			padding-left: 3em;
+		}
+
+		#mailicon{
+			height: 25px;
+			width: 30px;
+		}
+		#instaicon{
+			height: 25px;
+		}
+
+		.dd-menu {
+ 				position: relative;
+				display: inline-block;
+			}
+			.dropdown {
+				display: none;
+				position: absolute;
+				transform: translateX(-26px);
+				border-radius: 2em;
+				min-width: 100px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+			}
+			.dropdown a:hover {
+				background-color: red;
+			}
+			.dropdown>a{
+				text-align:center;
+				background-color: white;
+			}
+			.dd-menu:hover .dropdown {
+ 				display: grid;
+ 				grid-gap: 5px
+ 			
+			}
+	</style>
+</head>
+<body>
+<header>
+ 	<nav>
+ 		
+ 		<table id="main-menu">
+			<tr>
+				<td><img src="images/qarknet.png" id="headimg"></td>
+				<td>
+					<b><a class ="mob-main" href="#">Portfolio</a></b>
+				</td>
+				<td>
+				<div class="dd-menu">
+					<b> Qark </b>
+					<div class = "dropdown">
+					<a href="#">Bio</a> 
+					<a href="#">Contact</a> 
+					 
+					</div>
+				</div>
+				</td>
+			</tr>
+		</table>
+	</nav>
+ </header>
+<p id="para">
+	<b style="font-size: 14pt;">Qark </b><br>
+	... ehh from the G town. Town of a lot o suii <br>
+	yeah bru
+
+</p>
+
+
+
+
+ <div id="footer-position" style="position: fixed; bottom: 0%;">
+<footer id="footer">
+<nav>
+	<p></p><h3> Gallery of Qark </h3><p></p>
+   <a href="https://www.instagram.com/imfuckinghostile/"> <img src="assets/instagram-icon.jpg" id="instaicon"></a>
+   <img src="assets/mailicon.png" id="mailicon">
+</nav>
+
+</footer>
+</div>
+</body>
+</html>
